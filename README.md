@@ -16,16 +16,18 @@ Copy code
 
 ### Installation
 You will need `Node.js` and `npm` to work with the contract. Install dependencies by running:
+```
 npm install
-
+```
 shell
 Copy code
 
 ### Compilation and Deployment
 Use Hardhat for compiling and deploying the contract:
+```
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network <your-network>
-
+```
 vbnet
 Copy code
 
