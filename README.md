@@ -34,6 +34,7 @@ To interact with the contract, use ethers.js or web3.js. For example, to initial
 ```javascript
 const contract = new ethers.Contract(contractAddress, contractABI, signer);
 await contract.transfer(recipientAddress, amount);
+```
 Development
 Testing
 Run tests to ensure the contract works correctly:
